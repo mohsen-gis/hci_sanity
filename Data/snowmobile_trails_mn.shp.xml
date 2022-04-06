@@ -1,0 +1,596 @@
+<metadata xml:lang="en">
+	<idinfo>
+		<spdom>
+			<bounding>
+				<westbc>-97.267452</westbc>
+				<eastbc>-89.805113</eastbc>
+				<northbc>49.396413</northbc>
+				<southbc>43.416518</southbc>
+			</bounding>
+		</spdom>
+		<citation>
+			<citeinfo>
+				<onlink>file://\\2k8fs2\sharednr\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile13.gdb</onlink>
+			</citeinfo>
+		</citation>
+	</idinfo>
+	<eainfo>
+		<detailed Name="snowmobile_trails_mn">
+			<enttyp>
+				<enttypl>Snowmobile</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRAIL_NUM</attrlabl>
+				<attalias Sync="TRUE">TRAIL_NUM</attalias>
+				<attrtype Sync="TRUE">Integer</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<atprecis Sync="TRUE">10</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MILES</attrlabl>
+				<attalias Sync="TRUE">MILES</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>OWNER_TYPE</attrlabl>
+				<attalias Sync="TRUE">OWNER_TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">TRAIL_NAME</attrlabl>
+				<attalias Sync="TRUE">TRAIL_NAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAINT_BY</attrlabl>
+				<attalias Sync="TRUE">MAINT_BY</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PUBLIC_POC</attrlabl>
+				<attalias Sync="TRUE">PUBLIC_POC</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PUBLIC_PHO</attrlabl>
+				<attalias Sync="TRUE">PUBLIC_PHO</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">STUD_RESTR</attrlabl>
+				<attalias Sync="TRUE">STUD_RESTR</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">254</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POCWebsite</attrlabl>
+				<attalias Sync="TRUE">POCWebsite</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">250</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">POCEmail</attrlabl>
+				<attalias Sync="TRUE">POCEmail</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape_Leng</attrlabl>
+				<attalias Sync="TRUE">Shape_Leng</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+		</detailed>
+	</eainfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Professional x64 Edition Version 5.2 (Build 3790) Service Pack 2; Esri ArcGIS 10.4.1.5686</envirDesc>
+		<dataLang>
+			<languageCode value="en" Sync="TRUE"/>
+			<countryCode value="US" Sync="TRUE"/>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">snowmobile_trails_mn</resTitle>
+			<presForm>
+				<PresFormCd value="005" Sync="TRUE"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd value="001" Sync="TRUE"/>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<westBL Sync="TRUE">-97.267452</westBL>
+					<eastBL Sync="TRUE">-89.805113</eastBL>
+					<northBL Sync="TRUE">49.396413</northBL>
+					<southBL Sync="TRUE">43.416518</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<mdLang>
+		<languageCode value="en" Sync="TRUE"/>
+		<countryCode value="US" Sync="TRUE"/>
+	</mdLang>
+	<Esri>
+		<DataProperties>
+			<itemProps>
+				<itemName Sync="TRUE">snowmobile_trails_mn</itemName>
+				<imsContentType Sync="TRUE">002</imsContentType>
+				<nativeExtBox>
+					<westBL Sync="TRUE">189899.997300</westBL>
+					<eastBL Sync="TRUE">732011.699300</eastBL>
+					<southBL Sync="TRUE">4814199.677600</southBL>
+					<northBL Sync="TRUE">5471524.648600</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\g46palgdrftp001\Z\var\ftp\gdrs_temp\update\us_mn_state_dnr\trans_snowmobile_trails_mn\shp\snowmobile_trails_mn.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+				<itemSize Sync="TRUE">0.000</itemSize>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.4'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_15N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-93.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26915]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26915&lt;/WKID&gt;&lt;LatestWKID&gt;26915&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+			<lineage>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\AlterField" Date="20140812" Time="130818">AlterField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" TRAILNAME TRAIL_NAME #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140904" Time="080407">CalculateField "Snowmobile FY15\Snowmobile" MapTitle ""Trail Number "&amp; [TRAILNUM]&amp;", " &amp;[TRAIL_NAME]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="140020">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Roseau Co Trailblazers" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="140758">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Mille Lacs Trails" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="141123">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Mystic Riders" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="141837">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Prairieland Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="142014">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Cottonwood in Jackson" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="142519">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME " Glacial Lakes Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="142626">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Blue Earth River Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="142751">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Rum River Snow Riders" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="142909">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Buffalo-Ridge Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="143017">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Beaver Creek Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="143135">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "MC Trails" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="143308">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Lawron Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="143441">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Haypoint Trail" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140905" Time="143552">CalculateField "Snowmobile FY15\Snowmobile" CLUBNAME "Sherburne County Snowmobile Trails" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140924" Time="103055">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140924" Time="103539">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140924" Time="103827">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141010" Time="104535">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141010" Time="110943">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141010" Time="113214">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141010" Time="114826">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="083706">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="083802">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="084715">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="092500">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="095857">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="101324">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="102906">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="103154">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="103602">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="104020">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="104901">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="105704">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="111534">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="112923">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="114550">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="123926">CalculateField "Snowmobile FY15\Snowmobile" NorthSouth 0 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="123935">CalculateField "Snowmobile FY15\Snowmobile" EastWest 0 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="124022">CalculateField "Snowmobile FY15\Snowmobile" NorthSouth [MNUSA_NoSo] VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="124036">CalculateField "Snowmobile FY15\Snowmobile" EastWest [MNUSA_EaWe] VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="124928">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="125311">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="125759">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="131318">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="132355">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="135903">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141013" Time="135946">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141014" Time="153455">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141015" Time="112222">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141015" Time="113150">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141015" Time="135738">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141015" Time="144336">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141016" Time="101603">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\Snowmobile15.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141029" Time="114651">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141121" Time="152723">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141209" Time="101411">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141209" Time="102404">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141210" Time="144046">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141210" Time="145212">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141210" Time="145821">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141210" Time="150114">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141210" Time="150333">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141210" Time="151357">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141219" Time="073511">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141222" Time="104651">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150112" Time="124154">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150113" Time="122843">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150114" Time="142339">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150130" Time="140149">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150130" Time="141724">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150210" Time="150654">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150210" Time="151648">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150210" Time="153553">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150224" Time="133929">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150224" Time="135123">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150227" Time="083918">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150409" Time="080704">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile15edits.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150501" Time="150648">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="124359">CalculateField Snowmobile16Edits\Snowmobile MNUSA_NoSo 5 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="124411">CalculateField Snowmobile16Edits\Snowmobile NorthSouth 5 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="125543">CalculateField Snowmobile16Edits\Snowmobile NorthSouth 39 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="125552">CalculateField Snowmobile16Edits\Snowmobile MNUSA_NoSo 39 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="125657">CalculateField Snowmobile16Edits\Snowmobile MNUSA_NoSo 55 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="125708">CalculateField Snowmobile16Edits\Snowmobile NorthSouth 55 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="130222">CalculateField Snowmobile16Edits\Snowmobile EastWest 78 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="130232">CalculateField Snowmobile16Edits\Snowmobile MNUSA_EaWe 78 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="130850">CalculateField Snowmobile16Edits\Snowmobile MNUSA_EaWe 80 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="130858">CalculateField Snowmobile16Edits\Snowmobile EastWest 80 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="131341">CalculateField Snowmobile16Edits\Snowmobile EastWest 84 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="131351">CalculateField Snowmobile16Edits\Snowmobile MNUSA_EaWe 84 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="134315">CalculateField Snowmobile16Edits\Snowmobile EastWest 94 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150505" Time="134326">CalculateField Snowmobile16Edits\Snowmobile MNUSA_EaWe 94 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150519" Time="082434">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150529" Time="143355">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150529" Time="151250">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150529" Time="151858">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150602" Time="080318">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150602" Time="084136">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150602" Time="084543">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150602" Time="085448">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150729" Time="084215">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150818" Time="141330">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150831" Time="071112">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150921" Time="070512">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150923" Time="071215">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150923" Time="084555">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20150923" Time="144000">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="145632">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="151557">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="151807">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="153721">CalculateField Snowmobile16Edits\Snowmobile MNUSA_NoSo 0 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="153742">CalculateField Snowmobile16Edits\Snowmobile NorthSouth 0 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="153814">CalculateField Snowmobile16Edits\Snowmobile EastWest 0 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="153826">CalculateField Snowmobile16Edits\Snowmobile MNUSA_EaWe 0 VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151013" Time="153937">CalculateField "I:\PAT\Admin Services\IS_TEAM\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20151215" Time="124534">CalculateField "I:\PAT\0_Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160125" Time="154858">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160204" Time="075145">CalculateField Snowmobile16Edits\Snowmobile ALIGNCAT "HLVTREADWAY" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160223" Time="124321">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160318" Time="085202">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160322" Time="114743">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile16.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160414" Time="155255">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160518" Time="081255">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160518" Time="141141">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160519" Time="125715">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160616" Time="092926">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160622" Time="151412">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160707" Time="133358">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160707" Time="140444">CalculateField Snowmobile17Edits\Snowmobile OWNER_TYPE "Club" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160707" Time="140622">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160707" Time="144444">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160707" Time="151208">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160707" Time="151539">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160711" Time="123414">CalculateField Snowmobile17Edits\Snowmobile MapTitle ""Trail Number "&amp; [TRAILNUM]&amp;", "&amp; [TRAIL_NAME]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160802" Time="135750">CalculateField Snowmobile17Edits\Snowmobile OWNER_TYPE GIA VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160802" Time="135830">CalculateField Snowmobile17Edits\Snowmobile OWNER_TYPE "GIA" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160808" Time="134442">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160808" Time="140015">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160808" Time="141501">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160819" Time="144808">CalculateField Snowmobile17Edits\Snowmobile OWNER_TYPE "Club" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160822" Time="083307">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160915" Time="144324">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160915" Time="145418">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160915" Time="151311">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160928" Time="143811">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160928" Time="144623">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20160928" Time="145615">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20161007" Time="085327">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20161018" Time="072340">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20161026" Time="080919">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20161201" Time="151723">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20161202" Time="115938">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20161202" Time="120040">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="111945">Densify Snowmobile OFFSET "10 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="112042">Snap Snowmobile "firstmerge EDGE '5 Meters';firstmerge VERTEX '5 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="112127">Snap Snowmobile "firstmerge EDGE '10 Meters';firstmerge VERTEX '10 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="112148">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="112202">Snap Snowmobile "firstmerge EDGE '10 Meters';firstmerge VERTEX '10 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="112440">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="112502">Snap Snowmobile "firstmerge EDGE '20 Meters';firstmerge VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="112826">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="112836">Snap Snowmobile "firstmerge EDGE '20 Meters';firstmerge VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="125956">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="130008">Snap Snowmobile "firstmerge EDGE '20 Meters';firstmerge VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="130515">Snap Snowmobile "firstmerge EDGE '20 Meters';firstmerge VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="130655">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="130821">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="130837">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="131518">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="131528">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="131809">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="131819">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="132153">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="132203">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="132243">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="132253">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="132411">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="132417">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="132553">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="132558">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="132642">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="132647">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="132728">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="132735">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="133246">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="133258">Snap Snowmobile "WHEELS\anchor_seg EDGE '20 Meters';WHEELS\anchor_seg VERTEX '20 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="133411">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="133658">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="133705">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="134557">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="134606">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="134828">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="134837">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="135726">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="135736">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="135901">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="135907">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="140017">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="140023">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="140342">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="140348">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="140637">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="140654">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="140738">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="140748">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="141636">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="141644">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="141708">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="141715">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="141859">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="141911">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="142311">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="142319">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="142645">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="142652">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="142739">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="142750">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="143657">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="143706">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="143814">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="143826">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="144243">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="144249">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="144326">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="144332">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="144500">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="144507">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="144627">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="144634">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="144821">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="144829">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="145149">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="145155">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="145240">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="145250">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="145516">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="145521">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="145807">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="145814">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Densify" Date="20161206" Time="150035">Densify Snowmobile DISTANCE "5 Meters" "0.1 Meters" 10</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Editing Tools.tbx\Snap" Date="20161206" Time="150040">Snap Snowmobile "WHEELS\anchor_seg EDGE '40 Meters';WHEELS\anchor_seg VERTEX '40 Meters'"</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20161221" Time="145521">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170104" Time="071830">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170126" Time="075228">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170201" Time="094401">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170208" Time="095308">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile17.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170406" Time="072933">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170406" Time="074000">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170410" Time="125018">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170419" Time="131823">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170524" Time="151643">CalculateField Snowmobile18Edits\Snowmobile OWNER_TYPE "Club" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170605" Time="103156">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170619" Time="080953">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170705" Time="150742">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170710" Time="083937">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170717" Time="090816">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170717" Time="135402">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170717" Time="144606">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170721" Time="103907">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170721" Time="121519">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170807" Time="104502">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170810" Time="151314">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170811" Time="152946">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170825" Time="101304">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170922" Time="100353">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171024" Time="151858">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171025" Time="075801">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171025" Time="090345">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171102" Time="092419">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171114" Time="152408">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171114" Time="152535">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171129" Time="102623">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171130" Time="091540">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171206" Time="141322">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField" Date="20171206" Time="141516">JoinField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" TRAILNUM "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\FY18Contacts_StudInfo" TRAIL_NUM TRAIL_NUM;MILES;TRAIL_NAME;MAINT_BY;PUBLIC_POC;PUBLIC_PHO;STUD_RESTR;POCWebsite;POCEmail;Shape_Length</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171214" Time="151002">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171221" Time="100303">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171228" Time="092622">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180109" Time="090654">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180111" Time="131748">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180116" Time="081842">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180118" Time="084840">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180118" Time="103153">CalculateField Snowmobile18Edits\Snowmobile STABLE_PROD_GUID [GlobalID] VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180124" Time="105115">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180124" Time="105454">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180124" Time="110451">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180130" Time="122924">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" LMILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180207" Time="133105">CalculateField Snowmobile18Edits\Snowmobile TRAIL_NAME "Naytahwaush Nightriders Trails" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180207" Time="133151">CalculateField Snowmobile18Edits\Snowmobile CLUBNAME "Naytahwaush Nightriders Snowmobile Club" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180207" Time="134228">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="125526">CalculateField Snowmobile18Edits\Snowmobile PGRM_PROJECT ""SNO0000"&amp; [TRAIL_NUM]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="125559">CalculateField Snowmobile18Edits\Snowmobile PGRM_PROJECT ""SNO000"&amp; [TRAIL_NUM]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="125628">CalculateField Snowmobile18Edits\Snowmobile PGRM_PROJECT ""SNO00"&amp; [TRAIL_NUM]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="130033">CalculateField Snowmobile18Edits\Snowmobile PGRM_PROJECT ""SNO0000"&amp; [TRAIL_NUM]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="130114">CalculateField Snowmobile18Edits\Snowmobile PGRM_PROJECT ""SNO000"&amp; [TRAIL_NUM]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="130137">CalculateField Snowmobile18Edits\Snowmobile PGRM_PROJECT ""SNO00"&amp; [TRAIL_NUM]" VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="141356">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180301" Time="142845">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180307" Time="135942">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180307" Time="144457">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180307" Time="144751">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180307" Time="145127">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField" Date="20180307" Time="150147">JoinField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\trails\Snowmobile" TRAIL_NUM "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile18.gdb\FY18Contacts_StudInfo" TRAIL_NUM TRAIL_NUM;MILES;TRAIL_NAME;MAINT_BY;PUBLIC_POC;PUBLIC_PHO;STUD_RESTR;POCWebsite;POCEmail;PGRM_PROJECT;Shape_Length</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.5\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180521" Time="074106">CalculateField SnowmobileFY19 STABLE_PROD_GUID [GlobalID] VB #</Process>
+				<Process ToolSource="d:\users\dalonett\programs\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20180619" Time="152836">CalculateField SnowmobileFY19 MILES !Shape.length@miles! "Python 3" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180621" Time="122513">CalculateField SnowmobileFY19 STABLE_PROD_GUID [GlobalID] VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180621" Time="122550">CalculateField SnowmobileFY19 STABLE_PROD_GUID [GlobalID] VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180705" Time="125611">CalculateField SnowmobileFY19 STABLE_PROD_GUID [GlobalID] VB #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180713" Time="094449">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180713" Time="094524">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180713" Time="095640">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180807" Time="102532">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180807" Time="103908">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile" MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20180807" Time="103932">Dissolve "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile" "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve" TRAIL_NUM;OWNER_TYPE "MILES SUM" MULTI_PART DISSOLVE_LINES</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180807" Time="103959">CalculateField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve" SUM_MILES (!SHAPE.length@miles!) PYTHON_9.3 #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField" Date="20180807" Time="104016">JoinField "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve" TRAIL_NUM "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\FY19Contacts_StudInfo" TRAIL_NUM TRAIL_NUM;MILES;TRAIL_NAME;MAINT_BY;PUBLIC_POC;PUBLIC_PHO;STUD_RESTR;POCWebsite;POCEmail;PGRM_PROJECT;Shape_Length</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20180807" Time="104059">FeatureClassToFeatureClass "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve" "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails" snowmobile_trails_mn # "TRAIL_NUM "TRAIL_NUM" true true false 4 Long 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,TRAIL_NUM,-1,-1;MILES "SUM_MILES" true true false 8 Double 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,SUM_MILES,-1,-1;OWNER_TYPE "OWNER_TYPE" true true false 254 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,OWNER_TYPE,-1,-1;TRAIL_NAME "TRAIL_NAME" true true false 254 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,TRAIL_NAME,-1,-1;MAINT_BY "MAINT_BY" true true false 254 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,MAINT_BY,-1,-1;PUBLIC_POC "PUBLIC_POC" true true false 254 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,PUBLIC_POC,-1,-1;PUBLIC_PHO "PUBLIC_PHO" true true false 254 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,PUBLIC_PHO,-1,-1;STUD_RESTR "STUD_RESTR" true true false 254 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,STUD_RESTR,-1,-1;POCWebsite "POCWebsite" true true false 250 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,POCWebsite,-1,-1;POCEmail "POCEmail" true true false 50 Text 0 0 ,First,#,I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\Snowmobile_Dissolve,POCEmail,-1,-1" #</Process>
+				<Process ToolSource="c:\program files (x86)\arcgis\desktop10.6\ArcToolbox\Toolboxes\Data Management Tools.tbx\Copy" Date="20180807" Time="104301">Copy "I:\PAT\Admin Services Section\MNIT\DATA_Projects\GIA_Snowmobile\Data\snowmobile19.gdb\trails\snowmobile_trails_mn" O:\trans_snowmobile_trails_mn\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn FeatureClass</Process>
+				<Process ToolSource="C:\program files\arcgis\server\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20180810" Time="015029">FeatureClassToFeatureClass /var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn /var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\shp snowmobile_trails_mn.shp # "TRAIL_NUM "TRAIL_NUM" true true false 4 Long 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,TRAIL_NUM,-1,-1;MILES "SUM_MILES" true true false 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,MILES,-1,-1;OWNER_TYPE "OWNER_TYPE" true true false 254 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,OWNER_TYPE,-1,-1;TRAIL_NAME "TRAIL_NAME" true true false 254 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,TRAIL_NAME,-1,-1;MAINT_BY "MAINT_BY" true true false 254 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,MAINT_BY,-1,-1;PUBLIC_POC "PUBLIC_POC" true true false 254 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,PUBLIC_POC,-1,-1;PUBLIC_PHO "PUBLIC_PHO" true true false 254 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,PUBLIC_PHO,-1,-1;STUD_RESTR "STUD_RESTR" true true false 254 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,STUD_RESTR,-1,-1;POCWebsite "POCWebsite" true true false 250 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,POCWebsite,-1,-1;POCEmail "POCEmail" true true false 50 Text 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,POCEmail,-1,-1;Shape_Leng "Shape_Leng" false true true 8 Double 0 0 ,First,#,/var/ftp/gdrs_temp/update\us_mn_state_dnr\trans_snowmobile_trails_mn\fgdb\trans_snowmobile_trails_mn.gdb\snowmobile_trails_mn,Shape_Length,-1,-1" #</Process>
+			</lineage>
+		</DataProperties>
+		<SyncDate>20180810</SyncDate>
+		<SyncTime>01502900</SyncTime>
+		<ModDate>20180810</ModDate>
+		<ModTime>01502900</ModTime>
+		<CreaDate>20180807</CreaDate>
+		<CreaTime>10425900</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<SyncOnce>FALSE</SyncOnce>
+	</Esri>
+	<distInfo>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+		<distTranOps>
+			<transSize Sync="TRUE">0.000</transSize>
+		</distTranOps>
+	</distInfo>
+	<mdHrLv>
+		<ScopeCd value="005" Sync="TRUE"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="26915" Sync="TRUE"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.13(3.0.1)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs Name="snowmobile_trails_mn">
+				<geoObjTyp>
+					<GeoObjTypCd value="002" Sync="TRUE"/>
+				</geoObjTyp>
+				<geoObjCnt Sync="TRUE">0</geoObjCnt>
+			</geometObjs>
+			<topLvl>
+				<TopoLevCd value="001" Sync="TRUE"/>
+			</topLvl>
+		</VectSpatRep>
+	</spatRepInfo>
+	<spdoinfo>
+		<ptvctinf>
+			<esriterm Name="snowmobile_trails_mn">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<efeageom code="3" Sync="TRUE"/>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<efeacnt Sync="TRUE">0</efeacnt>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<mdDateSt Sync="TRUE">20180810</mdDateSt>
+</metadata>
