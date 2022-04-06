@@ -28,5 +28,4 @@ dependencies:
     - wordcloud
     - papermill
     - nbformat
-      #- tensorflow
-      #- mordecai
+
